@@ -1,0 +1,398 @@
+/*!
+ *  Font Awesome Contao List Types 3.2.1
+ *  ------------------------------------------------------------------------------
+ *  You can create lists in Contao with Font Awesome (http://fontawesome.io) symbols.
+ *
+ *  License
+ *  ------------------------------------------------------------------------------
+ *  - The Font Awesome font is licensed under SIL OFL 1.1 -
+ *    http://scripts.sil.org/OFL
+ *  - Font Awesome CSS, LESS, and SASS files are licensed under MIT License -
+ *    http://opensource.org/licenses/mit-license.html
+ *  - Font Awesome documentation licensed under CC BY 3.0 -
+ *    http://creativecommons.org/licenses/by/3.0/
+ *  - Attribution is no longer required in Font Awesome 3.0, but much appreciated:
+ *    "Font Awesome by Dave Gandy - http://fontawesome.io"
+ *
+ *  Author - Nils Poltmann
+ *  ------------------------------------------------------------------------------
+ *  Email: nils@poltmann.com
+ *  Twitter: http://twitter.com/_Poldi
+ */
+ 
+ [class*="iconlist-"]  ul {
+ list-style-type:none;
+ }
+ [class*="iconlist-"]  ul li {
+  margin-left: 0px;
+ }
+ 
+[class*="iconlist-"]  ul li:before {
+	margin-right: 8px;
+	font-family: FontAwesome;
+	font-weight: normal;
+	font-style: normal;
+	text-decoration: inherit;
+	-webkit-font-smoothing: antialiased;
+ }
+
+.ce_list.iconlist-glass ul li:before{content:"\f000"}
+.ce_list.iconlist-music ul li:before{content:"\f001"}
+.ce_list.iconlist-search ul li:before{content:"\f002"}
+.ce_list.iconlist-envelope-alt ul li:before{content:"\f003"}
+.ce_list.iconlist-heart ul li:before{content:"\f004"}
+.ce_list.iconlist-star ul li:before{content:"\f005"}
+.ce_list.iconlist-star-empty ul li:before{content:"\f006"}
+.ce_list.iconlist-user ul li:before{content:"\f007"}
+.ce_list.iconlist-film ul li:before{content:"\f008"}
+.ce_list.iconlist-th-large ul li:before{content:"\f009"}
+.ce_list.iconlist-th ul li:before{content:"\f00a"}
+.ce_list.iconlist-th-list ul li:before{content:"\f00b"}
+.ce_list.iconlist-ok ul li:before{content:"\f00c"}
+.ce_list.iconlist-remove ul li:before{content:"\f00d"}
+.ce_list.iconlist-zoom-in ul li:before{content:"\f00e"}
+.ce_list.iconlist-zoom-out ul li:before{content:"\f010"}
+.ce_list.iconlist-off ul li:before,.ce_list.iconlist-power-off ul li:before{content:"\f011"}
+.ce_list.iconlist-signal ul li:before{content:"\f012"}
+.ce_list.iconlist-cog ul li:before,.ce_list.iconlist-gear ul li:before{content:"\f013"}
+.ce_list.iconlist-trash ul li:before{content:"\f014"}
+.ce_list.iconlist-home ul li:before{content:"\f015"}
+.ce_list.iconlist-file-alt ul li:before{content:"\f016"}
+.ce_list.iconlist-time ul li:before{content:"\f017"}
+.ce_list.iconlist-road ul li:before{content:"\f018"}
+.ce_list.iconlist-download-alt ul li:before{content:"\f019"}
+.ce_list.iconlist-download ul li:before{content:"\f01a"}
+.ce_list.iconlist-upload ul li:before{content:"\f01b"}
+.ce_list.iconlist-inbox ul li:before{content:"\f01c"}
+.ce_list.iconlist-play-circle ul li:before{content:"\f01d"}
+.ce_list.iconlist-repeat ul li:before,.ce_list.iconlist-rotate-right ul li:before{content:"\f01e"}
+.ce_list.iconlist-refresh ul li:before{content:"\f021"}
+.ce_list.iconlist-list-alt ul li:before{content:"\f022"}
+.ce_list.iconlist-lock ul li:before{content:"\f023"}
+.ce_list.iconlist-flag ul li:before{content:"\f024"}
+.ce_list.iconlist-headphones ul li:before{content:"\f025"}
+.ce_list.iconlist-volume-off ul li:before{content:"\f026"}
+.ce_list.iconlist-volume-down ul li:before{content:"\f027"}
+.ce_list.iconlist-volume-up ul li:before{content:"\f028"}
+.ce_list.iconlist-qrcode ul li:before{content:"\f029"}
+.ce_list.iconlist-barcode ul li:before{content:"\f02a"}
+.ce_list.iconlist-tag ul li:before{content:"\f02b"}
+.ce_list.iconlist-tags ul li:before{content:"\f02c"}
+.ce_list.iconlist-book ul li:before{content:"\f02d"}
+.ce_list.iconlist-bookmark ul li:before{content:"\f02e"}
+.ce_list.iconlist-print ul li:before{content:"\f02f"}
+.ce_list.iconlist-camera ul li:before{content:"\f030"}
+.ce_list.iconlist-font ul li:before{content:"\f031"}
+.ce_list.iconlist-bold ul li:before{content:"\f032"}
+.ce_list.iconlist-italic ul li:before{content:"\f033"}
+.ce_list.iconlist-text-height ul li:before{content:"\f034"}
+.ce_list.iconlist-text-width ul li:before{content:"\f035"}
+.ce_list.iconlist-align-left ul li:before{content:"\f036"}
+.ce_list.iconlist-align-center ul li:before{content:"\f037"}
+.ce_list.iconlist-align-right ul li:before{content:"\f038"}
+.ce_list.iconlist-align-justify ul li:before{content:"\f039"}
+.ce_list.iconlist-list ul li:before{content:"\f03a"}
+.ce_list.iconlist-indent-left ul li:before{content:"\f03b"}
+.ce_list.iconlist-indent-right ul li:before{content:"\f03c"}
+.ce_list.iconlist-facetime-video ul li:before{content:"\f03d"}
+.ce_list.iconlist-picture ul li:before{content:"\f03e"}
+.ce_list.iconlist-pencil ul li:before{content:"\f040"}
+.ce_list.iconlist-map-marker ul li:before{content:"\f041"}
+.ce_list.iconlist-adjust ul li:before{content:"\f042"}
+.ce_list.iconlist-tint ul li:before{content:"\f043"}
+.ce_list.iconlist-edit ul li:before{content:"\f044"}
+.ce_list.iconlist-share ul li:before{content:"\f045"}
+.ce_list.iconlist-check ul li:before{content:"\f046"}
+.ce_list.iconlist-move ul li:before{content:"\f047"}
+.ce_list.iconlist-step-backward ul li:before{content:"\f048"}
+.ce_list.iconlist-fast-backward ul li:before{content:"\f049"}
+.ce_list.iconlist-backward ul li:before{content:"\f04a"}
+.ce_list.iconlist-play ul li:before{content:"\f04b"}
+.ce_list.iconlist-pause ul li:before{content:"\f04c"}
+.ce_list.iconlist-stop ul li:before{content:"\f04d"}
+.ce_list.iconlist-forward ul li:before{content:"\f04e"}
+.ce_list.iconlist-fast-forward ul li:before{content:"\f050"}
+.ce_list.iconlist-step-forward ul li:before{content:"\f051"}
+.ce_list.iconlist-eject ul li:before{content:"\f052"}
+.ce_list.iconlist-chevron-left ul li:before{content:"\f053"}
+.ce_list.iconlist-chevron-right ul li:before{content:"\f054"}
+.ce_list.iconlist-plus-sign ul li:before{content:"\f055"}
+.ce_list.iconlist-minus-sign ul li:before{content:"\f056"}
+.ce_list.iconlist-remove-sign ul li:before{content:"\f057"}
+.ce_list.iconlist-ok-sign ul li:before{content:"\f058"}
+.ce_list.iconlist-question-sign ul li:before{content:"\f059"}
+.ce_list.iconlist-info-sign ul li:before{content:"\f05a"}
+.ce_list.iconlist-screenshot ul li:before{content:"\f05b"}
+.ce_list.iconlist-remove-circle ul li:before{content:"\f05c"}
+.ce_list.iconlist-ok-circle ul li:before{content:"\f05d"}
+.ce_list.iconlist-ban-circle ul li:before{content:"\f05e"}
+.ce_list.iconlist-arrow-left ul li:before{content:"\f060"}
+.ce_list.iconlist-arrow-right ul li:before{content:"\f061"}
+.ce_list.iconlist-arrow-up ul li:before{content:"\f062"}
+.ce_list.iconlist-arrow-down ul li:before{content:"\f063"}
+.ce_list.iconlist-mail-forward ul li:before,.ce_list.iconlist-share-alt ul li:before{content:"\f064"}
+.ce_list.iconlist-resize-full ul li:before{content:"\f065"}
+.ce_list.iconlist-resize-small ul li:before{content:"\f066"}
+.ce_list.iconlist-plus ul li:before{content:"\f067"}
+.ce_list.iconlist-minus ul li:before{content:"\f068"}
+.ce_list.iconlist-asterisk ul li:before{content:"\f069"}
+.ce_list.iconlist-exclamation-sign ul li:before{content:"\f06a"}
+.ce_list.iconlist-gift ul li:before{content:"\f06b"}
+.ce_list.iconlist-leaf ul li:before{content:"\f06c"}
+.ce_list.iconlist-fire ul li:before{content:"\f06d"}
+.ce_list.iconlist-eye-open ul li:before{content:"\f06e"}
+.ce_list.iconlist-eye-close ul li:before{content:"\f070"}
+.ce_list.iconlist-warning-sign ul li:before{content:"\f071"}
+.ce_list.iconlist-plane ul li:before{content:"\f072"}
+.ce_list.iconlist-calendar ul li:before{content:"\f073"}
+.ce_list.iconlist-random ul li:before{content:"\f074"}
+.ce_list.iconlist-comment ul li:before{content:"\f075"}
+.ce_list.iconlist-magnet ul li:before{content:"\f076"}
+.ce_list.iconlist-chevron-up ul li:before{content:"\f077"}
+.ce_list.iconlist-chevron-down ul li:before{content:"\f078"}
+.ce_list.iconlist-retweet ul li:before{content:"\f079"}
+.ce_list.iconlist-shopping-cart ul li:before{content:"\f07a"}
+.ce_list.iconlist-folder-close ul li:before{content:"\f07b"}
+.ce_list.iconlist-folder-open ul li:before{content:"\f07c"}
+.ce_list.iconlist-resize-vertical ul li:before{content:"\f07d"}
+.ce_list.iconlist-resize-horizontal ul li:before{content:"\f07e"}
+.ce_list.iconlist-bar-chart ul li:before{content:"\f080"}
+.ce_list.iconlist-twitter-sign ul li:before{content:"\f081"}
+.ce_list.iconlist-facebook-sign ul li:before{content:"\f082"}
+.ce_list.iconlist-camera-retro ul li:before{content:"\f083"}
+.ce_list.iconlist-key ul li:before{content:"\f084"}
+.ce_list.iconlist-cogs ul li:before,.ce_list.iconlist-gears ul li:before{content:"\f085"}
+.ce_list.iconlist-comments ul li:before{content:"\f086"}
+.ce_list.iconlist-thumbs-up-alt ul li:before{content:"\f087"}
+.ce_list.iconlist-thumbs-down-alt ul li:before{content:"\f088"}
+.ce_list.iconlist-star-half ul li:before{content:"\f089"}
+.ce_list.iconlist-heart-empty ul li:before{content:"\f08a"}
+.ce_list.iconlist-signout ul li:before{content:"\f08b"}
+.ce_list.iconlist-linkedin-sign ul li:before{content:"\f08c"}
+.ce_list.iconlist-pushpin ul li:before{content:"\f08d"}
+.ce_list.iconlist-external-link ul li:before{content:"\f08e"}
+.ce_list.iconlist-signin ul li:before{content:"\f090"}
+.ce_list.iconlist-trophy ul li:before{content:"\f091"}
+.ce_list.iconlist-github-sign ul li:before{content:"\f092"}
+.ce_list.iconlist-upload-alt ul li:before{content:"\f093"}
+.ce_list.iconlist-lemon ul li:before{content:"\f094"}
+.ce_list.iconlist-phone ul li:before{content:"\f095"}
+.ce_list.iconlist-check-empty ul li:before,.ce_list.iconlist-unchecked ul li:before{content:"\f096"}
+.ce_list.iconlist-bookmark-empty ul li:before{content:"\f097"}
+.ce_list.iconlist-phone-sign ul li:before{content:"\f098"}
+.ce_list.iconlist-twitter ul li:before{content:"\f099"}
+.ce_list.iconlist-facebook ul li:before{content:"\f09a"}
+.ce_list.iconlist-github ul li:before{content:"\f09b"}
+.ce_list.iconlist-unlock ul li:before{content:"\f09c"}
+.ce_list.iconlist-credit-card ul li:before{content:"\f09d"}
+.ce_list.iconlist-rss ul li:before{content:"\f09e"}
+.ce_list.iconlist-hdd ul li:before{content:"\f0a0"}
+.ce_list.iconlist-bullhorn ul li:before{content:"\f0a1"}
+.ce_list.iconlist-bell ul li:before{content:"\f0a2"}
+.ce_list.iconlist-certificate ul li:before{content:"\f0a3"}
+.ce_list.iconlist-hand-right ul li:before{content:"\f0a4"}
+.ce_list.iconlist-hand-left ul li:before{content:"\f0a5"}
+.ce_list.iconlist-hand-up ul li:before{content:"\f0a6"}
+.ce_list.iconlist-hand-down ul li:before{content:"\f0a7"}
+.ce_list.iconlist-circle-arrow-left ul li:before{content:"\f0a8"}
+.ce_list.iconlist-circle-arrow-right ul li:before{content:"\f0a9"}
+.ce_list.iconlist-circle-arrow-up ul li:before{content:"\f0aa"}
+.ce_list.iconlist-circle-arrow-down ul li:before{content:"\f0ab"}
+.ce_list.iconlist-globe ul li:before{content:"\f0ac"}
+.ce_list.iconlist-wrench ul li:before{content:"\f0ad"}
+.ce_list.iconlist-tasks ul li:before{content:"\f0ae"}
+.ce_list.iconlist-filter ul li:before{content:"\f0b0"}
+.ce_list.iconlist-briefcase ul li:before{content:"\f0b1"}
+.ce_list.iconlist-fullscreen ul li:before{content:"\f0b2"}
+.ce_list.iconlist-group ul li:before{content:"\f0c0"}
+.ce_list.iconlist-link ul li:before{content:"\f0c1"}
+.ce_list.iconlist-cloud ul li:before{content:"\f0c2"}
+.ce_list.iconlist-beaker ul li:before{content:"\f0c3"}
+.ce_list.iconlist-cut ul li:before{content:"\f0c4"}
+.ce_list.iconlist-copy ul li:before{content:"\f0c5"}
+.ce_list.iconlist-paper-clip ul li:before,.ce_list.iconlist-paperclip ul li:before{content:"\f0c6"}
+.ce_list.iconlist-save ul li:before{content:"\f0c7"}
+.ce_list.iconlist-sign-blank ul li:before{content:"\f0c8"}
+.ce_list.iconlist-reorder ul li:before{content:"\f0c9"}
+.ce_list.iconlist-list-ul ul li:before{content:"\f0ca"}
+.ce_list.iconlist-list-ol ul li:before{content:"\f0cb"}
+.ce_list.iconlist-strikethrough ul li:before{content:"\f0cc"}
+.ce_list.iconlist-underline ul li:before{content:"\f0cd"}
+.ce_list.iconlist-table ul li:before{content:"\f0ce"}
+.ce_list.iconlist-magic ul li:before{content:"\f0d0"}
+.ce_list.iconlist-truck ul li:before{content:"\f0d1"}
+.ce_list.iconlist-pinterest ul li:before{content:"\f0d2"}
+.ce_list.iconlist-pinterest-sign ul li:before{content:"\f0d3"}
+.ce_list.iconlist-google-plus-sign ul li:before{content:"\f0d4"}
+.ce_list.iconlist-google-plus ul li:before{content:"\f0d5"}
+.ce_list.iconlist-money ul li:before{content:"\f0d6"}
+.ce_list.iconlist-caret-down ul li:before{content:"\f0d7"}
+.ce_list.iconlist-caret-up ul li:before{content:"\f0d8"}
+.ce_list.iconlist-caret-left ul li:before{content:"\f0d9"}
+.ce_list.iconlist-caret-right ul li:before{content:"\f0da"}
+.ce_list.iconlist-columns ul li:before{content:"\f0db"}
+.ce_list.iconlist-sort ul li:before{content:"\f0dc"}
+.ce_list.iconlist-sort-down ul li:before{content:"\f0dd"}
+.ce_list.iconlist-sort-up ul li:before{content:"\f0de"}
+.ce_list.iconlist-envelope ul li:before{content:"\f0e0"}
+.ce_list.iconlist-linkedin ul li:before{content:"\f0e1"}
+.ce_list.iconlist-rotate-left ul li:before,.ce_list.iconlist-undo ul li:before{content:"\f0e2"}
+.ce_list.iconlist-legal ul li:before{content:"\f0e3"}
+.ce_list.iconlist-dashboard ul li:before{content:"\f0e4"}
+.ce_list.iconlist-comment-alt ul li:before{content:"\f0e5"}
+.ce_list.iconlist-comments-alt ul li:before{content:"\f0e6"}
+.ce_list.iconlist-bolt ul li:before{content:"\f0e7"}
+.ce_list.iconlist-sitemap ul li:before{content:"\f0e8"}
+.ce_list.iconlist-umbrella ul li:before{content:"\f0e9"}
+.ce_list.iconlist-paste ul li:before{content:"\f0ea"}
+.ce_list.iconlist-lightbulb ul li:before{content:"\f0eb"}
+.ce_list.iconlist-exchange ul li:before{content:"\f0ec"}
+.ce_list.iconlist-cloud-download ul li:before{content:"\f0ed"}
+.ce_list.iconlist-cloud-upload ul li:before{content:"\f0ee"}
+.ce_list.iconlist-user-md ul li:before{content:"\f0f0"}
+.ce_list.iconlist-stethoscope ul li:before{content:"\f0f1"}
+.ce_list.iconlist-suitcase ul li:before{content:"\f0f2"}
+.ce_list.iconlist-bell-alt ul li:before{content:"\f0f3"}
+.ce_list.iconlist-coffee ul li:before{content:"\f0f4"}
+.ce_list.iconlist-food ul li:before{content:"\f0f5"}
+.ce_list.iconlist-file-text-alt ul li:before{content:"\f0f6"}
+.ce_list.iconlist-building ul li:before{content:"\f0f7"}
+.ce_list.iconlist-hospital ul li:before{content:"\f0f8"}
+.ce_list.iconlist-ambulance ul li:before{content:"\f0f9"}
+.ce_list.iconlist-medkit ul li:before{content:"\f0fa"}
+.ce_list.iconlist-fighter-jet ul li:before{content:"\f0fb"}
+.ce_list.iconlist-beer ul li:before{content:"\f0fc"}
+.ce_list.iconlist-h-sign ul li:before{content:"\f0fd"}
+.ce_list.iconlist-plus-sign-alt ul li:before{content:"\f0fe"}
+.ce_list.iconlist-double-angle-left ul li:before{content:"\f100"}
+.ce_list.iconlist-double-angle-right ul li:before{content:"\f101"}
+.ce_list.iconlist-double-angle-up ul li:before{content:"\f102"}
+.ce_list.iconlist-double-angle-down ul li:before{content:"\f103"}
+.ce_list.iconlist-angle-left ul li:before{content:"\f104"}
+.ce_list.iconlist-angle-right ul li:before{content:"\f105"}
+.ce_list.iconlist-angle-up ul li:before{content:"\f106"}
+.ce_list.iconlist-angle-down ul li:before{content:"\f107"}
+.ce_list.iconlist-desktop ul li:before{content:"\f108"}
+.ce_list.iconlist-laptop ul li:before{content:"\f109"}
+.ce_list.iconlist-tablet ul li:before{content:"\f10a"}
+.ce_list.iconlist-mobile-phone ul li:before{content:"\f10b"}
+.ce_list.iconlist-circle-blank ul li:before{content:"\f10c"}
+.ce_list.iconlist-quote-left ul li:before{content:"\f10d"}
+.ce_list.iconlist-quote-right ul li:before{content:"\f10e"}
+.ce_list.iconlist-spinner ul li:before{content:"\f110"}
+.ce_list.iconlist-circle ul li:before{content:"\f111"}
+.ce_list.iconlist-mail-reply ul li:before,.ce_list.iconlist-reply ul li:before{content:"\f112"}
+.ce_list.iconlist-github-alt ul li:before{content:"\f113"}
+.ce_list.iconlist-folder-close-alt ul li:before{content:"\f114"}
+.ce_list.iconlist-folder-open-alt ul li:before{content:"\f115"}
+.ce_list.iconlist-expand-alt ul li:before{content:"\f116"}
+.ce_list.iconlist-collapse-alt ul li:before{content:"\f117"}
+.ce_list.iconlist-smile ul li:before{content:"\f118"}
+.ce_list.iconlist-frown ul li:before{content:"\f119"}
+.ce_list.iconlist-meh ul li:before{content:"\f11a"}
+.ce_list.iconlist-gamepad ul li:before{content:"\f11b"}
+.ce_list.iconlist-keyboard ul li:before{content:"\f11c"}
+.ce_list.iconlist-flag-alt ul li:before{content:"\f11d"}
+.ce_list.iconlist-flag-checkered ul li:before{content:"\f11e"}
+.ce_list.iconlist-terminal ul li:before{content:"\f120"}
+.ce_list.iconlist-code ul li:before{content:"\f121"}
+.ce_list.iconlist-mail-reply-all ul li:before,.ce_list.iconlist-reply-all ul li:before{content:"\f122"}
+.ce_list.iconlist-star-half-empty ul li:before,.ce_list.iconlist-star-half-full ul li:before{content:"\f123"}
+.ce_list.iconlist-location-arrow ul li:before{content:"\f124"}
+.ce_list.iconlist-crop ul li:before{content:"\f125"}
+.ce_list.iconlist-code-fork ul li:before{content:"\f126"}
+.ce_list.iconlist-unlink ul li:before{content:"\f127"}
+.ce_list.iconlist-question ul li:before{content:"\f128"}
+.ce_list.iconlist-info ul li:before{content:"\f129"}
+.ce_list.iconlist-exclamation ul li:before{content:"\f12a"}
+.ce_list.iconlist-superscript ul li:before{content:"\f12b"}
+.ce_list.iconlist-subscript ul li:before{content:"\f12c"}
+.ce_list.iconlist-eraser ul li:before{content:"\f12d"}
+.ce_list.iconlist-puzzle-piece ul li:before{content:"\f12e"}
+.ce_list.iconlist-microphone ul li:before{content:"\f130"}
+.ce_list.iconlist-microphone-off ul li:before{content:"\f131"}
+.ce_list.iconlist-shield ul li:before{content:"\f132"}
+.ce_list.iconlist-calendar-empty ul li:before{content:"\f133"}
+.ce_list.iconlist-fire-extinguisher ul li:before{content:"\f134"}
+.ce_list.iconlist-rocket ul li:before{content:"\f135"}
+.ce_list.iconlist-maxcdn ul li:before{content:"\f136"}
+.ce_list.iconlist-chevron-sign-left ul li:before{content:"\f137"}
+.ce_list.iconlist-chevron-sign-right ul li:before{content:"\f138"}
+.ce_list.iconlist-chevron-sign-up ul li:before{content:"\f139"}
+.ce_list.iconlist-chevron-sign-down ul li:before{content:"\f13a"}
+.ce_list.iconlist-html5 ul li:before{content:"\f13b"}
+.ce_list.iconlist-css3 ul li:before{content:"\f13c"}
+.ce_list.iconlist-anchor ul li:before{content:"\f13d"}
+.ce_list.iconlist-unlock-alt ul li:before{content:"\f13e"}
+.ce_list.iconlist-bullseye ul li:before{content:"\f140"}
+.ce_list.iconlist-ellipsis-horizontal ul li:before{content:"\f141"}
+.ce_list.iconlist-ellipsis-vertical ul li:before{content:"\f142"}
+.ce_list.iconlist-rss-sign ul li:before{content:"\f143"}
+.ce_list.iconlist-play-sign ul li:before{content:"\f144"}
+.ce_list.iconlist-ticket ul li:before{content:"\f145"}
+.ce_list.iconlist-minus-sign-alt ul li:before{content:"\f146"}
+.ce_list.iconlist-check-minus ul li:before{content:"\f147"}
+.ce_list.iconlist-level-up ul li:before{content:"\f148"}
+.ce_list.iconlist-level-down ul li:before{content:"\f149"}
+.ce_list.iconlist-check-sign ul li:before{content:"\f14a"}
+.ce_list.iconlist-edit-sign ul li:before{content:"\f14b"}
+.ce_list.iconlist-external-link-sign ul li:before{content:"\f14c"}
+.ce_list.iconlist-share-sign ul li:before{content:"\f14d"}
+.ce_list.iconlist-compass ul li:before{content:"\f14e"}
+.ce_list.iconlist-collapse ul li:before{content:"\f150"}
+.ce_list.iconlist-collapse-top ul li:before{content:"\f151"}
+.ce_list.iconlist-expand ul li:before{content:"\f152"}
+.ce_list.iconlist-eur ul li:before,.ce_list.iconlist-euro ul li:before{content:"\f153"}
+.ce_list.iconlist-gbp ul li:before{content:"\f154"}
+.ce_list.iconlist-dollar ul li:before,.ce_list.iconlist-usd ul li:before{content:"\f155"}
+.ce_list.iconlist-inr ul li:before,.ce_list.iconlist-rupee ul li:before{content:"\f156"}
+.ce_list.iconlist-jpy ul li:before,.ce_list.iconlist-yen ul li:before{content:"\f157"}
+.ce_list.iconlist-cny ul li:before,.ce_list.iconlist-renminbi ul li:before{content:"\f158"}
+.ce_list.iconlist-krw ul li:before,.ce_list.iconlist-won ul li:before{content:"\f159"}
+.ce_list.iconlist-bitcoin ul li:before,.ce_list.iconlist-btc ul li:before{content:"\f15a"}
+.ce_list.iconlist-file ul li:before{content:"\f15b"}
+.ce_list.iconlist-file-text ul li:before{content:"\f15c"}
+.ce_list.iconlist-sort-by-alphabet ul li:before{content:"\f15d"}
+.ce_list.iconlist-sort-by-alphabet-alt ul li:before{content:"\f15e"}
+.ce_list.iconlist-sort-by-attributes ul li:before{content:"\f160"}
+.ce_list.iconlist-sort-by-attributes-alt ul li:before{content:"\f161"}
+.ce_list.iconlist-sort-by-order ul li:before{content:"\f162"}
+.ce_list.iconlist-sort-by-order-alt ul li:before{content:"\f163"}
+.ce_list.iconlist-thumbs-up ul li:before{content:"\f164"}
+.ce_list.iconlist-thumbs-down ul li:before{content:"\f165"}
+.ce_list.iconlist-youtube-sign ul li:before{content:"\f166"}
+.ce_list.iconlist-youtube ul li:before{content:"\f167"}
+.ce_list.iconlist-xing ul li:before{content:"\f168"}
+.ce_list.iconlist-xing-sign ul li:before{content:"\f169"}
+.ce_list.iconlist-youtube-play ul li:before{content:"\f16a"}
+.ce_list.iconlist-dropbox ul li:before{content:"\f16b"}
+.ce_list.iconlist-stackexchange ul li:before{content:"\f16c"}
+.ce_list.iconlist-instagram ul li:before{content:"\f16d"}
+.ce_list.iconlist-flickr ul li:before{content:"\f16e"}
+.ce_list.iconlist-adn ul li:before{content:"\f170"}
+.ce_list.iconlist-bitbucket ul li:before{content:"\f171"}
+.ce_list.iconlist-bitbucket-sign ul li:before{content:"\f172"}
+.ce_list.iconlist-tumblr ul li:before{content:"\f173"}
+.ce_list.iconlist-tumblr-sign ul li:before{content:"\f174"}
+.ce_list.iconlist-long-arrow-down ul li:before{content:"\f175"}
+.ce_list.iconlist-long-arrow-up ul li:before{content:"\f176"}
+.ce_list.iconlist-long-arrow-left ul li:before{content:"\f177"}
+.ce_list.iconlist-long-arrow-right ul li:before{content:"\f178"}
+.ce_list.iconlist-apple ul li:before{content:"\f179"}
+.ce_list.iconlist-windows ul li:before{content:"\f17a"}
+.ce_list.iconlist-android ul li:before{content:"\f17b"}
+.ce_list.iconlist-linux ul li:before{content:"\f17c"}
+.ce_list.iconlist-dribbble ul li:before{content:"\f17d"}
+.ce_list.iconlist-skype ul li:before{content:"\f17e"}
+.ce_list.iconlist-foursquare ul li:before{content:"\f180"}
+.ce_list.iconlist-trello ul li:before{content:"\f181"}
+.ce_list.iconlist-female ul li:before{content:"\f182"}
+.ce_list.iconlist-male ul li:before{content:"\f183"}
+.ce_list.iconlist-gittip ul li:before{content:"\f184"}
+.ce_list.iconlist-sun ul li:before{content:"\f185"}
+.ce_list.iconlist-moon ul li:before{content:"\f186"}
+.ce_list.iconlist-archive ul li:before{content:"\f187"}
+.ce_list.iconlist-bug ul li:before{content:"\f188"}
+.ce_list.iconlist-vk ul li:before{content:"\f189"}
+.ce_list.iconlist-weibo ul li:before{content:"\f18a"}
+.ce_list.iconlist-renren ul li:before{content:"\f18b"}
