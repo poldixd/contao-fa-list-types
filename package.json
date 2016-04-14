@@ -1,5 +1,5 @@
 {
-  "name": "fa-contao-list-types",
+  "name": "poldixd/contao-fa-list-types",
   "version": "1.0.0",
   "description": "Adds the Font Awesome symbols to the Contao List.",
   "main": "index.js",

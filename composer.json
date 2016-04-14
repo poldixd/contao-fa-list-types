@@ -1,5 +1,5 @@
 {
-    "name":"poldixd/fa-contao-list-types",
+    "name":"poldixd/contao-fa-list-types",
     "description":"Adds the Font Awesome symbols to the Contao List.",
     "keywords":["contao","list","fontawesome"],
     "type":"contao-module",
