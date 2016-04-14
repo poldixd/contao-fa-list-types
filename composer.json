@@ -28,7 +28,7 @@
         "contao":{
             "sources":{
                 "system/modules/fa-list-types": "system/modules/fa-list-types",
-                "assets/contao/css/font-awesome-contao-list-types.min.css": "assets/contao/css/font-awesome-contao-list-types.min.css"
+                "assets/contao/css/fa-list-types-v321.min.css": "assets/contao/css/fa-list-types-v321.min.css"
             }
         }
     }
