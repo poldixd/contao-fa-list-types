@@ -13,8 +13,8 @@
         }
     ],
     "support":{
-        "issues":"https://github.com/poldixd/Contao-Piwik-Visitor-OptOut/issues",
-        "source":"https://github.com/poldixd/Contao-Piwik-Visitor-OptOut",
+        "issues":"https://github.com/poldixd/contao-fa-list-types/issues",
+        "source":"https://github.com/poldixd/contao-fa-list-types"
     },
     "require":{
         "php":">=5.3",
@@ -27,7 +27,7 @@
     "extra":{
         "contao":{
             "sources":{
-                "assets/contao/css/font-awesome-contao-list-types.min.css": "assets/contao/css/font-awesome-contao-list-types.min.css",
+                "assets/contao/css/font-awesome-contao-list-types.min.css": "assets/contao/css/font-awesome-contao-list-types.min.css"
             }
         }
     }
