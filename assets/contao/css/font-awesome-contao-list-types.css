@@ -1,33 +1,10 @@
-/*!
- *  Font Awesome Contao List Types 3.2.1
- *  ------------------------------------------------------------------------------
- *  You can create lists in Contao with Font Awesome (http://fontawesome.io) symbols.
- *
- *  License
- *  ------------------------------------------------------------------------------
- *  - The Font Awesome font is licensed under SIL OFL 1.1 -
- *    http://scripts.sil.org/OFL
- *  - Font Awesome CSS, LESS, and SASS files are licensed under MIT License -
- *    http://opensource.org/licenses/mit-license.html
- *  - Font Awesome documentation licensed under CC BY 3.0 -
- *    http://creativecommons.org/licenses/by/3.0/
- *  - Attribution is no longer required in Font Awesome 3.0, but much appreciated:
- *    "Font Awesome by Dave Gandy - http://fontawesome.io"
- *
- *  Author - Nils Poltmann
- *  ------------------------------------------------------------------------------
- *  Email: nils@poltmann.com
- *  Twitter: http://twitter.com/_Poldi
- */
- 
- [class*="iconlist-"]  ul {
- list-style-type:none;
- }
- [class*="iconlist-"]  ul li {
-  margin-left: 0px;
- }
- 
-[class*="iconlist-"]  ul li:before {
+[class*="iconlist-"] ul {
+    list-style-type:none;
+}
+[class*="iconlist-"] ul li {
+    margin-left: 0px;
+}
+[class*="iconlist-"] ul li:before {
 	margin-right: 8px;
 	font-family: FontAwesome;
 	font-weight: normal;

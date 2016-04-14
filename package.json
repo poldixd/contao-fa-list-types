@@ -1,0 +1,28 @@
+{
+  "name": "fa-contao-list-types",
+  "version": "1.0.0",
+  "description": "Adds the Font Awesome symbols to the Contao List.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/poldixd/Font-Awesome-Contao-List-Types.git"
+  },
+  "keywords": [
+    "contao"
+  ],
+  "author": "Nils Poltmann <dev@nils.li>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/poldixd/Font-Awesome-Contao-List-Types/issues"
+  },
+  "homepage": "https://github.com/poldixd/Font-Awesome-Contao-List-Types#readme",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-cssmin": "^1.0.1",
+    "grunt-contrib-jshint": "^1.0.0",
+    "grunt-contrib-watch": "^1.0.0"
+  }
+}

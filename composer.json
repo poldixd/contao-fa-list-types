@@ -1,0 +1,34 @@
+{
+    "name":"poldixd/fa-contao-list-types",
+    "description":"Adds the Font Awesome symbols to the Contao List.",
+    "keywords":["contao","list","fontawesome"],
+    "type":"contao-module",
+    "homepage":"https://nils.li",
+    "license":"MIT",
+    "authors":[
+        {
+            "name" : "Nils Poltmann",
+            "email" : "dev@nils.li",
+            "role":"Developer"
+        }
+    ],
+    "support":{
+        "issues":"https://github.com/poldixd/Contao-Piwik-Visitor-OptOut/issues",
+        "source":"https://github.com/poldixd/Contao-Piwik-Visitor-OptOut",
+    },
+    "require":{
+        "php":">=5.3",
+        "contao/core":">=3.3,<4",
+        "contao-community-alliance/composer-plugin": "*"
+    },
+    "autoload":{
+        "classmap":[""]
+    },
+    "extra":{
+        "contao":{
+            "sources":{
+                "assets/contao/css/font-awesome-contao-list-types.min.css": "assets/contao/css/font-awesome-contao-list-types.min.css",
+            }
+        }
+    }
+}
